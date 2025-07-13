@@ -1,0 +1,193 @@
+.navbar{
+    background-color: rgb(114, 76, 150) ;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+label.logo{
+    color:white;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.navbar ul li{
+display: inline-block;
+margin-right: 80px;
+
+}
+.navbar ul li a{
+    color:white;
+    text-decoration: none;
+    padding: 0px 5px;
+}
+.icons i{
+    color:white;
+    margin-top: 15px;
+    margin-right: 5px;
+  
+}
+.navbar ul li:hover{
+    background-color: black;
+    color: black;
+   
+}
+
+.home{
+    background-color:rgb(114, 76, 150) ;
+    position: relative;
+    
+    color:white;
+    margin-top: -20px;
+}
+.home-info h2{
+    color: rgba(175, 172, 172, 0.959);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home-info h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 2px black;
+}
+
+.image{
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+    background-color: rgb(76, 58, 92);
+    z-index: 1;
+    position:relative;
+}
+.home-info hr{
+    width:30%;
+    color: yellow;
+    border: 2px solid yellow;
+    margin-left: 10px;
+}
+.home-info{
+    width:33%
+}
+.third{
+    width:33%;
+}
+.smain{
+    display: flex;
+    justify-content: space-evenly;
+}
+.sec-icons i{
+    margin: 0px 5px;
+    color:yellow;
+}
+.stat-section{
+    max-width: 30%;
+    margin-left: 15px;
+   
+}
+.stat-section h3{
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      color:white;
+    }
+.stat-section p {
+      color: #ccc;
+      font-size: 1rem;
+      margin-bottom: 40px;
+    }
+.stat-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+.stat {
+      color: #f5c242; /* Gold/yellow color for numbers */
+    } 
+.stat-number {
+      font-size: 1.8rem;
+      font-weight: bold;
+    }
+.stat-label {
+      font-size: 0.9rem;
+      color: #ccc;
+      margin-top: 5px;
+    }
+.sec-2{
+  background-color:rgb(86, 54, 119);
+  margin-top: -40px;
+}
+.card-container{
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+    
+}
+    .card {
+      background-color: #2e2e3d;
+      display: flex;
+      align-items: center;
+      padding: 1rem;
+      border-radius: 12px;
+      justify-content: space-between;
+    }
+    .card img {
+      width: 80px;
+      height: 80px;
+      border-radius: 8px;
+      object-fit: cover;
+      margin-right: 1rem;
+    }
+    .card-content {
+      flex: 1;
+      margin-left: 1rem;
+    }
+     .card-content h3 {
+      margin: 0;
+      font-size: 1.2rem;
+      color:white
+    }
+    .card-content p {
+      margin: 0.4rem 0 0;
+      color: #b0b0b0;
+    }
+    .arrow {
+      font-size: 1.5rem;
+      color: gold;
+    }
+.sec-2 {
+  background-color: rgb(76, 58, 92);
+  margin-top: -40px;
+  padding: 3rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  background-color: #2a2a3b;
+  padding: 20px;
+  border-radius: 8px;
+  position: absolute;
+  top:300px;
+  width: 80%;
+  margin-left: 90px;
+  z-index: 3;
+}
+.company {
+  background-color: #3a3a4d;
+  padding: 10px 20px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
+.company img {
+  height: 20px;
+}
+.image img{
+  height: 300px;
+  width:300px;
+  z-index: 2;
+  position: absolute;
+  right:10px;
+}
